@@ -1,0 +1,1 @@
+criar novas rotas e implementar novas funcionalidades como requisições para deletar algo.

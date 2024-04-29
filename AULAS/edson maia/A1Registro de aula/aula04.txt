@@ -1,0 +1,1 @@
+usado método post com express e utilizado o insomnia para testar o método.
