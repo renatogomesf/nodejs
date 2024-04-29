@@ -64,4 +64,14 @@ app.delete('/selecoes/:id',(request,response)=>{
     response.send(`Seleção com id: ${request.params.id} excluída com sucesso!`)
 })
 
+
+app.put('/selecoes/:id',(request,response)=>{
+    let index = buscaIndexSelecao(request.params.id)
+
+    selecoes[index].selecao = request.body.selecao
+    selecoes[index].grupo = request.body.grupo
+    
+    response.json(selecoes)
+})
+
 export default app
