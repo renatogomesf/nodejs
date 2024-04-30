@@ -8,4 +8,6 @@ const conexao = mysql.createConnection({
     database: 'cfbcursos'
 })
 
+conexao.connect()
+
 export default conexao
