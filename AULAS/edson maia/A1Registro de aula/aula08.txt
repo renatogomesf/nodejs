@@ -1,4 +1,4 @@
-CRUD completo.
+CRUD completo no MySQL.
 
 C - Create
 R - Read
