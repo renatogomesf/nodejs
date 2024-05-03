@@ -5,7 +5,7 @@
 //     }
 
 //     const mysql = require('mysql2/promise')
-//     const con = mysql.createConnection('mysql://root:01167671216@localhost:3306/cfbcursos')
+//     const con = mysql.createConnection('mysql://root:123456789@localhost:3306/cfbcursos')
 //     console.log("conectado ao banco")
 //     global.conexao = con
 //     return con
